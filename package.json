@@ -1,25 +1,22 @@
 {
-  "name": "crayon-svelte",
-  "version": "1.0.10",
-  "description": "",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/wicz/crayon-svelte"
-  },
-  "license": "ISC",
   "author": "",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "scripts": {
-    "build": "webpack",
-    "build:prod": "webpack --prod",
-    "build:watch": "webpack --watch",
-    "build:watch:prod": "webpack --watch --prod",
-    "clean": "rm -rf dist && rm -rf coverage",
-    "test": "jest --passWithNoTests",
-    "test:cover": "jest --coverage --passWithNoTests",
-    "test:watch": "jest --watch --passWithNoTests"
+  "bugs": {
+    "url": "https://github.com/alshdavid/crayon/issues"
   },
+  "description": "<img align=\"left\" width=\"350px\" src=\"https://cdn.davidalsh.com/crayon/logo.png\"> <img align=\"right\" width=\"350px\" src=\"https://cdn.davidalsh.com/crayon/crayon.gif\">",
+  "devDependencies": {
+    "@types/jest": "^24.0.13",
+    "crayon": "*",
+    "crayon-kit": "*",
+    "jest": "^24.8.0",
+    "ts-jest": "^24.0.2",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.3",
+    "webpack": "^4.39.2",
+    "webpack-bundle-analyzer": "^3.4.1",
+    "webpack-cli": "^3.3.7"
+  },
+  "homepage": "https://github.com/alshdavid/crayon#readme",
   "jest": {
     "collectCoverageFrom": [
       "src/**/**.{ts,js}",
@@ -47,19 +44,26 @@
       "^.+\\.tsx?$": "ts-jest"
     }
   },
-  "devDependencies": {
-    "@types/jest": "^24.0.13",
-    "crayon": "wicz/crayon",
-    "crayon-kit": "wicz/crayon-kit",
-    "jest": "^24.8.0",
-    "ts-jest": "^24.0.2",
-    "ts-loader": "^6.0.4",
-    "typescript": "^3.5.3",
-    "webpack": "^4.39.2",
-    "webpack-bundle-analyzer": "^3.4.1",
-    "webpack-cli": "^3.3.7"
-  },
+  "license": "ISC",
+  "main": "dist/index.js",
+  "name": "crayon-svelte",
   "peerDependencies": {
     "crayon": "^2.0.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alshdavid/crayon.git"
+  },
+  "scripts": {
+    "build": "webpack",
+    "build:prod": "webpack --prod",
+    "build:watch": "webpack --watch",
+    "build:watch:prod": "webpack --watch --prod",
+    "clean": "rm -rf dist && rm -rf coverage",
+    "test": "jest --passWithNoTests",
+    "test:cover": "jest --coverage --passWithNoTests",
+    "test:watch": "jest --watch --passWithNoTests"
+  },
+  "types": "dist/index.d.ts",
+  "version": "1.0.10"
 }
