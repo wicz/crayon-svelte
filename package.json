@@ -4,7 +4,7 @@
   "description": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/alshdavid/crayon"
+    "url": "https://github.com/wicz/crayon-svelte"
   },
   "license": "ISC",
   "author": "",
@@ -49,8 +49,8 @@
   },
   "devDependencies": {
     "@types/jest": "^24.0.13",
-    "crayon": "*",
-    "crayon-kit": "*",
+    "crayon": "wicz/crayon",
+    "crayon-kit": "wicz/crayon-kit",
     "jest": "^24.8.0",
     "ts-jest": "^24.0.2",
     "ts-loader": "^6.0.4",
