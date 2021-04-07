@@ -6,8 +6,8 @@
   "description": "<img align=\"left\" width=\"350px\" src=\"https://cdn.davidalsh.com/crayon/logo.png\"> <img align=\"right\" width=\"350px\" src=\"https://cdn.davidalsh.com/crayon/crayon.gif\">",
   "devDependencies": {
     "@types/jest": "^24.0.13",
-    "crayon": "github:wicz/crayon",
-    "crayon-kit": "github:wicz/crayon-kit",
+    "crayon": "wicz/crayon",
+    "crayon-kit": "wicz/crayon-kit",
     "jest": "^24.8.0",
     "ts-jest": "^24.0.2",
     "ts-loader": "^6.0.4",
@@ -48,7 +48,7 @@
   "main": "dist/index.js",
   "name": "crayon-svelte",
   "peerDependencies": {
-    "crayon": "github:wicz/crayon.git"
+    "crayon": "wicz/crayon.git"
   },
   "repository": {
     "type": "git",
